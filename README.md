@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+Portfolio Profesional - Esteban Cordero
+🚀 Descripción del Proyecto
+Portfolio profesional desarrollado como plataforma para mostrar mis habilidades, proyectos y experiencia como Ingeniero en Sistemas. El sitio ofrece:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Presentación profesional con modo claro/oscuro
 
-Currently, two official plugins are available:
+Sección detallada de habilidades técnicas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Galería de proyectos destacados
 
-## Expanding the ESLint configuration
+Sistema de contacto directo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Descarga de CV en múltiples idiomas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+🔧 Tecnologías Utilizadas
+Frontend Principal
+React + TypeScript: Base del desarrollo con componentes funcionales
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Tailwind CSS: Estilizado rápido y responsive
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Framer Motion: Animaciones fluidas e interactivas
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Vite: Entorno de desarrollo ultrarrápido
+
+Internacionalización
+Context API: Gestión del estado de idioma (ES/EN)
+
+LocalStorage: Persistencia de preferencia de idioma
+
+UI/UX
+React Icons: Librería completa de iconos
+
+Responsive Design: Adaptable a móviles y desktop
+
+Modo Oscuro/Claro: Toggle con persistencia
+
+🌍 Características Clave
+Diseño Moderno
+
+Interfaz limpia y profesional
+
+Transiciones suaves entre secciones
+
+Efectos visuales atractivos
+
+Funcionalidades Avanzadas
+
+Sistema de traducción completo
+
+Descarga de CV en PDF según idioma
+
+Integración con redes profesionales
+
+Optimizaciones
+
+Carga rápida con Vite
+
+Código bien estructurado y documentado
+
+Fácil mantenimiento y escalabilidad
